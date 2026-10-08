@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legendary Maxwell Game Web</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Animated Particles Background -->
+<canvas id="particles-canvas"></canvas>
+</head>
+<body>
+
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="legend.png" alt="Maxwell Logo" class="logo-img">
+            <span>LEGENDARY MAXWELL</span>
+        </div>
+        <nav>
+            <ul class="nav-links" id="nav-links">
+            <li><button id="theme-toggle" class="theme-btn">🌙</button></li>        
+<li><a href="#consoles">Consoles</a></li>
+<li><a href="#mods">APK Mods</a></li>
+                <li><a href="#status">Server Status</a></li>
+<li><a href="#setup">My Setup</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#games">PPSSPP</a></li>
+                <li><a href="#consoles">Consoles</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#" id="auth-btn" class="btn-nav">Login</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+    </header>
+
+    <!-- EPIC Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Welcome to the <span class="neon-text">Arena</span></h1>
+                <p class="subtitle">The ultimate hub for <span id="typed-text"></span><span class="cursor">|</span></p>
+                <a href="#games" class="btn-primary">Explore Games</a>
+            </div>
+            <div class="hero-image">
+                <img src="legend.png" alt="Legendary Maxwell">
+            </div>
+        </div>
+    </section>
+
+    <!-- PPSSPP Games Section -->
+    <section id="games" class="section games-section">
+        <h2 class="section-title">Top PPSSPP <span class="neon-text">Games</span></h2>
+        <p class="section-subtitle">The best games to play on your PSP emulator.</p>
+        <div class="game-grid">
+            <div class="game-card">
+    <img src="gow.jpg" alt="God of War Cover" class="game-img">
+    <h3>God of War: Chains of Olympus</h3>
+                <p>Experience Kratos' brutal journey. A masterpiece of action.</p>
+                <span class="tag">Action</span>
+            </div>
+            <div class="game-card">
+    <img src="gta5 pic.png" alt="GTA Cover" class="game-img">
+                <h3>Grand Theft Auto 5 Enhaced</h3>
+                <p>Return to the 80s neon streets. Build your empire.</p>
+                <span class="tag">Open World</span>
+            </div>
+            <div class="game-card">
+    <img src="tekken.png" alt="Tekken Cover" class="game-img">
+                <h3>Tekken 8 moded</h3>
+                <p>Fast-paced 3D fighting. Master the combos.</p>
+                <span class="tag">Fighting</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: The Console Vault Section -->
+    <section id="consoles" class="section consoles-section">
+        <h2 class="section-title">The <span class="neon-text">Console Vault</span></h2>
+        <p class="section-subtitle">From retro classics to next-gen masterpieces. Explore the generations.</p>
+        <div class="console-grid">
+            <div class="console-card ps2">
+                <div class="console-img">PS2</div>
+                <h3>PlayStation 2</h3>
+                <p>The legendary black box. Home to GTA San Andreas, God of War, and thousands of classics.</p>
+                <span class="gen-tag">6th Gen</span>
+            </div>
+            <div class="console-card ps3">
+                <div class="console-img">PS3</div>
+                <h3>PlayStation 3</h3>
+                <p>The era of HD gaming. Brought us The Last of Us, Uncharted, and Blu-ray discs.</p>
+                <span class="gen-tag">7th Gen</span>
+            </div>
+            <div class="console-card ps4">
+                <div class="console-img">PS4</div>
+                <h3>PlayStation 4</h3>
+                <p>A modern powerhouse. Bloodborne, Horizon Zero Dawn, and incredible exclusives.</p>
+                <span class="gen-tag">8th Gen</span>
+            </div>
+            <div class="console-card ps5">
+                <div class="console-img">PS5</div>
+                <h3>PlayStation 5</h3>
+                <p>Next-gen is here. Lightning-fast SSD, DualSense haptics, and stunning 4K visuals.</p>
+                <span class="gen-tag">9th Gen</span>
+            </div>
+            <div class="console-card psp">
+                <div class="console-img">PSP</div>
+                <h3>PlayStation Portable</h3>
+                <p>The king of handhelds. Console-quality gaming in the palm of your hand via PPSSPP.</p>
+                <span class="gen-tag">Handheld</span>
+            </div>
+        </div>
+    </section>
+
+<!-- NEW: APK MODDING Section -->
+<section id="mods" class="section mods-section">
+    <h2 class="section-title">APK <span class="neon-text">Modding Zone</span></h2>
+    <p class="section-subtitle">Exploring the world of mobile game mods. Info, reviews & safety tips!</p>
+    
+    <div class="mod-grid">
+        <!-- Free Fire -->
+        <div class="mod-card">
+            <div class="mod-img" style="background: linear-gradient(45deg, #ff6a00, #ee0979);">
+                <span class="mod-icon">🔥</span>
+            </div>
+            <h3>Free Fire (FF)</h3>
+            <p>The battle royale king of mobile. Popular mods include aim assist, auto-headshot configs, and custom skin packs.</p>
+            <div class="mod-tags">
+                <span class="tag">Battle Royale</span>
+                <span class="tag">Action</span>
+            </div>
+            <p class="mod-warning">⚠️ Use at your own risk. Modding FF can get your account banned.</p>
+        </div>
+
+        <!-- PUBG Mobile -->
+        <div class="mod-card">
+            <div class="mod-img" style="background: linear-gradient(45deg, #f7b733, #fc4a1a);">
+                <span class="mod-icon">🎯</span>
+            </div>
+            <h3>PUBG Mobile</h3>
+            <p>The original mobile BR giant. Modders love custom sensitivity configs, UC generators (fake ones beware!), and graphics unlockers.</p>
+            <div class="mod-tags">
+                <span class="tag">Shooter</span>
+                <span class="tag">Survival</span>
+            </div>
+            <p class="mod-warning">⚠️ Never trust "UC generator" sites — they are always scams.</p>
+        </div>
+
+        <!-- Blood Strike -->
+        <div class="mod-card">
+            <div class="mod-img" style="background: linear-gradient(45deg, #8e2de2, #4a00e0);">
+                <span class="mod-icon">🩸</span>
+            </div>
+            <h3>Blood Strike</h3>
+            <p>NetEase's new fast-paced shooter. The modding scene is growing with aim trainers, no-recoil configs, and custom HUDs.</p>
+            <div class="mod-tags">
+                <span class="tag">FPS</span>
+                <span class="tag">New</span>
+            </div>
+            <p class="mod-warning">⚠️ Always scan APKs with antivirus before installing.</p>
+        </div>
+
+        <!-- Mobile Legends -->
+        <div class="mod-card">
+            <div class="mod-img" style="background: linear-gradient(45deg, #11998e, #38ef7d);">
+                <span class="mod-icon">⚔️</span>
+            </div>
+            <h3>Mobile Legends</h3>
+            <p>The MOBA giant. Popular mods include drone view unlockers, custom skins, and map hacks (highly risky!).</p>
+            <div class="mod-tags">
+                <span class="tag">MOBA</span>
+                <span class="tag">Strategy</span>
+            </div>
+            <p class="mod-warning">⚠️ Map hacks are considered cheating and will ban you fast.</p>
+        </div>
+    </div>
+
+    <!-- Safety Tips Box -->
+    <div class="safety-box">
+        <h3>🛡️ Maxwell's Modding Safety Rules</h3>
+        <ul>
+            <li><strong>Rule 1:</strong> Only download APKs from trusted sources.</li>
+            <li><strong>Rule 2:</strong> Always scan files with an antivirus app first.</li>
+            <li><strong>Rule 3:</strong> Never give your game login/password to any "mod tool".</li>
+            <li><strong>Rule 4:</strong> Use a secondary account when testing mods.</li>
+            <li><strong>Rule 5:</strong> If it sounds too good to be true, it's a scam.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- NEW: Gaming Skills Section -->
+<section id="skills" class="section skills-section">
+    <h2 class="section-title">Gaming <span class="neon-text">Skills</span></h2>
+    <p class="section-subtitle">Legendary Maxwell's expertise across different genres</p>
+    
+    <div class="skills-container">
+        <div class="skill-item">
+            <div class="skill-header">
+                <span class="skill-name">FPS Games (PUBG, Free Fire, Blood Strike)</span>
+                <span class="skill-percent">95%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="95"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-header">
+                <span class="skill-name">Battle Royale Strategy</span>
+                <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="90"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-header">
+                <span class="skill-name">PSP Emulation & PPSSPP</span>
+                <span class="skill-percent">100%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="100"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-header">
+                <span class="skill-name">Retro Gaming Knowledge</span>
+                <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="85"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-header">
+                <span class="skill-name">APK Modding Expertise</span>
+                <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="80"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- NEW: Stats Counter Section -->
+<section class="section stats-section">
+    <h2 class="section-title">Legendary <span class="neon-text">Stats</span></h2>
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-number" data-target="5000">0</div>
+            <div class="stat-label">Hours Played</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" data-target="150">0</div>
+            <div class="stat-label">Games Completed</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" data-target="50">0</div>
+            <div class="stat-label">Mods Tested</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" data-target="1000">0</div>
+            <div class="stat-label">Community Members</div>
+        </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <h2 class="section-title">About <span class="neon-text">Legendary Maxwell</span></h2>
+        <div class="about-content">
+            <p>What's up! I'm Maxwell, but in the gaming world, they call me <strong>Legendary Maxwell</strong>. I am a massive gaming enthusiast with a special love for the Sony ecosystem and PPSSPP emulation.</p>
+            <p>I built this website to share my passion, review the best games across all generations, and connect with other retro and modern gaming fans. Game on!</p>
+        </div>
+    </section>
+    <!-- NEW: Live Server Status Dashboard -->
+    <section id="status" class="section status-section">
+        <h2 class="section-title">Live <span class="neon-text">Server Status</span></h2>
+        <p class="section-subtitle">Real-time check on major game servers. (Simulated Data)</p>
+        
+        <div class="status-grid">
+            <div class="status-card online">
+                <div class="status-icon">🟢</div>
+                <h3>Free Fire</h3>
+                <p class="status-text">ONLINE</p>
+                <small>Ping: 45ms</small>
+            </div>
+            <div class="status-card online">
+                <div class="status-icon">🟢</div>
+                <h3>PUBG Mobile</h3>
+                <p class="status-text">ONLINE</p>
+                <small>Ping: 60ms</small>
+            </div>
+            <div class="status-card maintenance">
+                <div class="status-icon">🟠</div>
+                <h3>Blood Strike</h3>
+                <p class="status-text">MAINTENANCE</p>
+                <small>Back in 2h</small>
+            </div>
+            <div class="status-card online">
+                <div class="status-icon">🟢</div>
+                <h3>Mobile Legends</h3>
+                <p class="status-text">ONLINE</p>
+                <small>Ping: 30ms</small>
+            </div>
+            <div class="status-card offline">
+                <div class="status-icon">🔴</div>
+                <h3>Call of Duty Mobile</h3>
+                <p class="status-text">OFFLINE</p>
+                <small>Server Crash</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Community Leaderboard -->
+    <section class="section leaderboard-section">
+        <h2 class="section-title">Top <span class="neon-text">Legends</span></h2>
+        <div class="leaderboard-table">
+            <div class="lb-header">
+                <span>Rank</span>
+                <span>Gamertag</span>
+                <span>K/D Ratio</span>
+                <span>Main Game</span>
+            </div>
+            <div class="lb-row">
+                <span class="rank gold">#1</span>
+                <span class="tag-name">LegendaryMaxwell</span>
+                <span>12.5</span>
+                <span>Free Fire</span>
+            </div>
+            <div class="lb-row">
+                <span class="rank silver">#2</span>
+                <span class="tag-name">SniperKing_99</span>
+                <span>10.2</span>
+                <span>PUBG</span>
+            </div>
+            <div class="lb-row">
+                <span class="rank bronze">#3</span>
+                <span class="tag-name">NoScopeGod</span>
+                <span>9.8</span>
+                <span>Blood Strike</span>
+            </div>
+            <div class="lb-row">
+                <span class="rank">#4</span>
+                <span class="tag-name">RetroGamerX</span>
+                <span>8.5</span>
+                <span>PPSSPP</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW: Maxwell's Gaming Setup -->
+    <section id="setup" class="section setup-section">
+        <h2 class="section-title">The <span class="neon-text">Battle Station</span></h2>
+        <div class="setup-container">
+            <div class="setup-item">
+                <div class="setup-icon">💻</div>
+                <h3>PC Master Race</h3>
+                <ul>
+                    <li><strong>CPU:</strong> Intel Core i9-13900K</li>
+                    <li><strong>GPU:</strong> NVIDIA RTX 4090</li>
+                    <li><strong>RAM:</strong> 64GB DDR5</li>
+                    <li><strong>Monitor:</strong> 240Hz OLED</li>
+                </ul>
+            </div>
+            <div class="setup-item">
+                <div class="setup-icon">📱</div>
+                <h3>Mobile Rig</h3>
+                <ul>
+                    <li><strong>Phone:</strong> iPhone 15 Pro Max / ROG Phone 8</li>
+                    <li><strong>Trigger:</strong> Black Shark Magnetic Triggers</li>
+                    <li><strong>Cooling:</strong> External Fan Cooler</li>
+                    <li><strong>Network:</strong> 5G Ultra Low Latency</li>
+                </ul>
+            </div>
+            <div class="setup-item">
+                <div class="setup-icon">🎧</div>
+                <h3>Peripherals</h3>
+                <ul>
+                    <li><strong>Headset:</strong> HyperX Cloud II Wireless</li>
+                    <li><strong>Mouse:</strong> Logitech G Pro X Superlight</li>
+                    <li><strong>Keyboard:</strong> Razer Huntsman Mini</li>
+                    <li><strong>Chair:</strong> SecretLab Titan Evo</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- NEW: Contact Maxwell Section -->
+<section id="contact" class="section contact-section">
+    <h2 class="section-title">Contact <span class="neon-text">Legendary Maxwell</span></h2>
+    <p class="section-subtitle">Got a question, collaboration idea, or just want to chat about games? Hit me up!</p>
+    
+    <div class="contact-container">
+        <form id="contact-form" class="contact-form">
+            <div class="form-group">
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" placeholder="Enter your name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="contact-email">Your Email</label>
+                <input type="email" id="contact-email" placeholder="your@email.com" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="contact-message">Your Message</label>
+                <textarea id="contact-message" rows="5" placeholder="Type your message here..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-primary">Send Message 🚀</button>
+        </form>
+        
+        <!-- Success Message (Hidden by default) -->
+        <div id="success-message" class="success-message">
+            <div class="success-icon">✅</div>
+            <h3>Message Sent!</h3>
+            <p>Thanks for reaching out! I'll get back to you soon, gamer.</p>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Legendary Maxwell Game Web. Keep Grinding, Keep Gaming.</p>
+    </footer>
+
+    <!-- LOGIN & SIGNUP MODALS -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-login">&times;</span>
+            <h2>Player Login</h2>
+            <form id="login-form">
+                <input type="text" id="login-username" placeholder="Username" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <button type="submit" class="btn-primary">Enter the Arena</button>
+            </form>
+            <p class="switch-form">Don't have an account? <a href="#" id="show-signup">Create Account</a></p>
+        </div>
+    </div>
+
+    <div id="signup-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-signup">&times;</span>
+            <h2>Create Gamer Account</h2>
+            <form id="signup-form">
+                <input type="text" id="signup-username" placeholder="Choose a Gamertag" required>
+                <input type="password" id="signup-password" placeholder="Create Password" required>
+                <button type="submit" class="btn-primary">Join the Legend</button>
+            </form>
+            <p class="switch-form">Already a member? <a href="#" id="show-login">Login Here</a></p>
+        </div>
+    </div>
+
+    <!-- NEW: AI CHAT WIDGET -->
+    <div id="chat-widget">
+        <button id="chat-toggle" class="chat-toggle-btn">🤖 AI Assistant</button>
+        <div id="chat-window" class="chat-window">
+            <div class="chat-header">
+                <h3>Maxwell AI</h3>
+                <span id="close-chat">&times;</span>
+            </div>
+            <div id="chat-messages" class="chat-messages">
+                <div class="message bot-msg">Hello! I'm Maxwell's AI assistant. Ask me about PS2, PS3, PS4, PS5, or the legend himself!</div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Type your message...">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
